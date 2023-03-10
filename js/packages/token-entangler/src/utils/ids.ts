@@ -15,7 +15,7 @@ export const GUMDROP_TEMPORAL_SIGNER = new PublicKey(
 );
 
 export const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID = new PublicKey(
-  'ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL',
+  'AToD9iqHSc2fhEP9Jp7UYA6mRjHQ4CTWyzCsw8X3tH7K',
 );
 
 export const TOKEN_METADATA_PROGRAM_ID = new PublicKey(
@@ -27,5 +27,5 @@ export const TOKEN_ENTANGLEMENT_PROGRAM_ID = new PublicKey(
 );
 
 export const WRAPPED_SAFE_MINT = new PublicKey(
-  'So11111111111111111111111111111111111111112',
+  'Safe111111111111111111111111111111111111111',
 );
