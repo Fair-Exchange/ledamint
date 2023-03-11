@@ -49,7 +49,7 @@ export const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID =
   new anchor.web3.PublicKey('AToD9iqHSc2fhEP9Jp7UYA6mRjHQ4CTWyzCsw8X3tH7K');
 
 export const CIVIC = new anchor.web3.PublicKey(
-  'gatem74V238djXdzWnJf94Wo1DcnuGkfijbf3AuBhfs',
+  'gatQYMRPQ6aRJy4wp2JU6hiC2q6kcsQrKvD9Fp1ACmc.json',
 );
 
 export const getAtaForMint = async (
