@@ -12,7 +12,7 @@ import {
   CANDY_MACHINE_PROGRAM_V2_ID,
   CONFIG_LINE_SIZE_V2,
 } from './constants';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import { CandyMachineData } from './accounts';
 
 export function createAssociatedTokenAccountInstruction(

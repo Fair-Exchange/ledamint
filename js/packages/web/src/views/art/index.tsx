@@ -22,7 +22,7 @@ import { ViewOn } from '../../components/ViewOn';
 import { ArtType } from '../../types';
 import { ArtMinting } from '../../components/ArtMinting';
 import { PublicKey } from '@safecoin/web3.js';
-import { Metadata } from '@j0nnyboi/mpl-token-metadata';
+import { Metadata } from '@safecoin/lpl-token-metadata';
 
 const { Content } = Layout;
 

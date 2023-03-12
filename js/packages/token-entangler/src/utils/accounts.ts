@@ -1,4 +1,4 @@
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import { Connection, PublicKey } from '@safecoin/web3.js';
 import {
   AccountLayout,

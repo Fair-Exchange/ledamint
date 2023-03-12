@@ -1,6 +1,6 @@
 import './App.css';
 import { useMemo } from 'react';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import Home from './Home';
 import { DEFAULT_TIMEOUT } from './connection';
 import { clusterApiUrl } from '@safecoin/web3.js';

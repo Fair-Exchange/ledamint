@@ -1,4 +1,4 @@
-import { BN } from '@j0nnyboi/anchor';
+import { BN } from '@safecoin/anchor';
 import { PublicKey } from '@safecoin/web3.js';
 
 export class Creator {

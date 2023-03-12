@@ -5,10 +5,10 @@ import {
   getMetadata,
 } from '../helpers/accounts';
 import { TOKEN_METADATA_PROGRAM_ID } from '../helpers/constants';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import { sendTransactionWithRetryWithKeypair } from '../helpers/transactions';
 import log from 'loglevel';
-import { Program } from '@j0nnyboi/anchor';
+import { Program } from '@safecoin/anchor';
 import { CollectionData } from '../types';
 
 export async function removeCollection(

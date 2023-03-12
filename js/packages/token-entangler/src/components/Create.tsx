@@ -14,7 +14,7 @@ import { useMemo, useEffect } from 'react';
 
 import { useWallet } from '@j0nnyboi/wallet-adapter-react';
 import React from 'react';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 
 import { useConnection } from '../contexts';
 import { createEntanglement } from '../utils/entangler';

@@ -2,7 +2,7 @@ import React from 'react';
 import { useConnection } from '../contexts';
 import { useWallet } from '@j0nnyboi/wallet-adapter-react';
 import { useMemo, useEffect } from 'react';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import { swapEntanglement } from '../utils/entangler';
 import { Box, Button, FormGroup, TextField } from '@mui/material';
 import Typography from '@mui/material/Typography';

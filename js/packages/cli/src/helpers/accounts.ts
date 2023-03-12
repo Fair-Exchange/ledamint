@@ -23,10 +23,10 @@ import {
   A,
   CANDY_MACHINE_PROGRAM_V2_ID,
 } from './constants';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import fs from 'fs';
 import { createCandyMachineV2Account } from './instructions';
-import { web3 } from '@j0nnyboi/anchor';
+import { web3 } from '@safecoin/anchor';
 import log from 'loglevel';
 import { AccountLayout, u64 } from '@safecoin/safe-token';
 import { getCluster } from './various';

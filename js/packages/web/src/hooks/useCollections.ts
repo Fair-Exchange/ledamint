@@ -1,5 +1,5 @@
 import { AuctionView, AuctionViewState } from './useAuctions';
-import { MetadataData } from '@j0nnyboi/mpl-token-metadata';
+import { MetadataData } from '@safecoin/lpl-token-metadata';
 import { useAuctionsList } from '../views/home/components/SalesList/hooks/useAuctionsList';
 import { LiveAuctionViewState } from '../views/home/components/SalesList';
 import { useEffect, useState } from 'react';

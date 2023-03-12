@@ -13,7 +13,7 @@ import {
   DataV2,
   UpdateMetadataV2Args,
   MetadataData,
-} from '@j0nnyboi/mpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 export const METADATA_PREFIX = 'metadata';
 export const EDITION = 'edition';
 export const RESERVATION = 'reservation';

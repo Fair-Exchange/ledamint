@@ -8,7 +8,7 @@ import {
   loadWalletKey,
 } from '../helpers/accounts';
 import { PublicKey } from '@safecoin/web3.js';
-import { BN, Program, web3 } from '@j0nnyboi/anchor';
+import { BN, Program, web3 } from '@safecoin/anchor';
 
 import fs from 'fs';
 

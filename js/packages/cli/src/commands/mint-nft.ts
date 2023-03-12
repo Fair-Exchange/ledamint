@@ -4,7 +4,7 @@ import {
   getMetadata,
   getMasterEdition,
 } from '../helpers/accounts';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import fetch from 'node-fetch';
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
@@ -29,7 +29,7 @@ import {
   CreateMetadataV2,
   CreateMasterEditionV3,
   UpdateMetadataV2,
-} from '@j0nnyboi/mpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 export const createMetadata = async (
   metadataLink: string,

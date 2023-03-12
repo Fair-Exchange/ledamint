@@ -6,7 +6,7 @@ import { useConnection } from '../contexts';
 import { useMemo } from 'react';
 import { useWallet } from '@j0nnyboi/wallet-adapter-react';
 
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import { searchEntanglements } from '../utils/entangler';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';

@@ -58,7 +58,7 @@ import { getCardsByPackSet } from '../../models/packs/accounts/PackCard';
 import { processPackCards } from './processPackCards';
 import { getProvingProcessByPackSetAndWallet } from '../../models/packs/accounts/ProvingProcess';
 import { processProvingProcess } from './processProvingProcess';
-import { MetadataData } from '@j0nnyboi/mpl-token-metadata';
+import { MetadataData } from '@safecoin/lpl-token-metadata';
 
 const MULTIPLE_ACCOUNT_BATCH_SIZE = 100;
 

@@ -10,10 +10,10 @@ import {
 } from './commands/mint-nft';
 import { getMetadata, loadWalletKey } from './helpers/accounts';
 import { parseUses } from './helpers/various';
-import { web3 } from '@j0nnyboi/anchor';
+import { web3 } from '@safecoin/anchor';
 import { PublicKey } from '@safecoin/web3.js';
 import { getCluster } from './helpers/various';
-import { DataV2, MetadataData } from '@j0nnyboi/mpl-token-metadata';
+import { DataV2, MetadataData } from '@safecoin/lpl-token-metadata';
 import * as fs from 'fs';
 
 program.version('1.1.0');

@@ -7,7 +7,7 @@
     "@cloudflare/stream-react": "^1.1.0",
     "@google/model-viewer": "^1.7.2",
     "@j0nnyboi/magic-ext-safecoin": "^0.1.0",
-    "@j0nnyboi/mpl-token-metadata": "^0.0.1",
+    "@safecoin/lpl-token-metadata": "^0.0.1",
     "@j0nnyboi/arweave-cost": "^2.0.1",
     "@j0nnyboi/common": "^0.0.3",
     "@j0nnyboi/serum": "^0.1.1",

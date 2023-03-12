@@ -1,4 +1,4 @@
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 import FormData from 'form-data';
 import fs from 'fs';
 import path from 'path';

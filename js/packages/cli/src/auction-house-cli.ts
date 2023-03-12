@@ -14,7 +14,7 @@ import {
   loadAuctionHouseProgram,
   loadWalletKey,
 } from './helpers/accounts';
-import { BN, web3 } from '@j0nnyboi/anchor';
+import { BN, web3 } from '@safecoin/anchor';
 import { TOKEN_PROGRAM_ID, WRAPPED_SAFE_MINT } from './helpers/constants';
 import { ASSOCIATED_TOKEN_PROGRAM_ID, Token } from '@safecoin/safe-token';
 import { getPriceWithMantissa } from './helpers/various';

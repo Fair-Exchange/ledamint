@@ -35,7 +35,7 @@ import {
   Collection,
   DataV2,
   Uses,
-} from '@j0nnyboi/mpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 const RESERVED_TXN_MANIFEST = 'manifest.json';
 const RESERVED_METADATA = 'metadata.json';

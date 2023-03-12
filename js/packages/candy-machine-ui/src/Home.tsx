@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, useCallback } from 'react';
-import * as anchor from '@j0nnyboi/anchor';
+import * as anchor from '@safecoin/anchor';
 
 import styled from 'styled-components';
 import { Container, Snackbar } from '@material-ui/core';
@@ -23,7 +23,7 @@ import {
 import { AlertState, toDate, formatNumber, getAtaForMint } from './utils';
 import { MintCountdown } from './MintCountdown';
 import { MintButton } from './MintButton';
-//import { GatewayProvider } from '@j0nnyboi/safecoin-gateway-react';
+//import { GatewayProvider } from '@safecoin/safecoin-gateway-react';
 import { sendTransaction } from './connection';
 
 const ConnectButton = styled(WalletDialogButton)`

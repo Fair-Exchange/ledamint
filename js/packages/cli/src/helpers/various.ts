@@ -6,7 +6,7 @@ import {
   Keypair,
 } from '@safecoin/web3.js';
 import fs from 'fs';
-import { BN, Program, web3 } from '@j0nnyboi/anchor';
+import { BN, Program, web3 } from '@safecoin/anchor';
 import { Token, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import { StorageType } from './storage-type';
 
@@ -17,7 +17,7 @@ import {
   UseMethod,
   Metadata,
   MetadataKey,
-} from '@j0nnyboi/mpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 export async function getCandyMachineV2Config(
   walletKeyPair: web3.Keypair,
